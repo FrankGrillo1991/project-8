@@ -2,6 +2,11 @@ body {
     position: relative;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .overlay {
     position: absolute;
     top: 0;
