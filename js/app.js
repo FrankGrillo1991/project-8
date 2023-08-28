@@ -40,11 +40,11 @@ function displayEmployees(employeeData) {
 
 gridContainer.innerHTML = employeeHTML;
 
-}
+
 
 function displayModal(index) {
 
-    let { name, dob, phone, email, ,location: { city, street, state, postcode}, picture } = employees[index];
+    let { name, dob, phone, email, location: { city, street, state, postcode}, picture } = employees[index];
 
     let date = new Date(dob.date);
 
