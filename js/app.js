@@ -13,7 +13,6 @@ fetch(urlAPI)
 
 function displayEmployees(employeeData) {
 
-    gridContainer.innerHTML = employeeHTML;
     employees = employeeData;
     console.log(employees)
     let employeeHTML = '';
@@ -36,7 +35,7 @@ function displayEmployees(employeeData) {
 `
 
     });
-
+    gridContainer.innerHTML = employeeHTML;
 }
 
 
