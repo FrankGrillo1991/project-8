@@ -28,7 +28,7 @@ body {
 }
 
 .modal-text {
-    display: flex;
+    display: grid;
     text-align: right;
 }
 
