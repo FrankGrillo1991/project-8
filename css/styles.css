@@ -44,7 +44,6 @@ body {
     display: flex;
     text-align: right;
     border: 1px solid gray;
-    justify-content: space-between;
 }
 
 .avatar {
