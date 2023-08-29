@@ -41,13 +41,15 @@ function displayEmployees(employeeData) {
 
 function displayModal(index) {
 
-    const overlay = document.querySelector(".overlay");
-
-    const modalContainer = document.querySelector(".modal-content");
 
     let { name, dob, phone, email, location: { city, street, state, postcode}, picture } = employees[index];
 
     let date = new Date(dob.date);
+
+    const overlay = document.querySelector(".overlay");
+
+    const modalContainer = document.querySelector(".modal-content");
+
 
     const modalHTML = `
     <img class="avatar" src="${picture.large}">
