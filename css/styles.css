@@ -43,6 +43,7 @@ body {
 .card {
     display: flex;
     text-align: right;
+    border: 1px solid gray;
 }
 
 .hidden {
