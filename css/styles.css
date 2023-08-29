@@ -17,15 +17,19 @@ body {
 }
 
 .modal {
-    display: flex;
     width: 375px;
     margin: 15% auto auto;
     position: relative;
-    text-align: right;
+    text-align: center;
     background: #fff;
     border: 1px solid #778;
     border-radius: 5px;
     padding: 30px 20px;
+}
+
+.modal-text {
+    display: flex;
+    text-align: right;
 }
 
 
