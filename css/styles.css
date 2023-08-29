@@ -20,16 +20,13 @@ body {
     width: 375px;
     margin: 15% auto auto;
     position: relative;
-    text-align: center;
+    text-align: right;
     background: #fff;
     border: 1px solid #778;
     border-radius: 5px;
     padding: 30px 20px;
 }
 
-.modal-text {
-    text-align: right;
-}
 
 .modal-close {
     position: absolute;
