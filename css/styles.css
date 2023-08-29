@@ -2,6 +2,10 @@ body {
     position: relative;
 }
 
+.page-name {
+    text-transform: uppercase;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
