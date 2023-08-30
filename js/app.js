@@ -49,7 +49,7 @@ function displayModal(index) {
 
     let date = new Date(dob.date);
 
-    street = street.number.name;
+    name = street.number.name;
 
     const overlay = document.querySelector(".overlay");
 
