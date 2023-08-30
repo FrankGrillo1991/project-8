@@ -44,7 +44,7 @@ function displayModal(index) {
 
     let { name, dob, phone, email, location: { city, street, state, postcode}, picture } = employees[index];
 
-    console.log(street);
+    let street = number.name;
 
     let date = new Date(dob.date);
 
