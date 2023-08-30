@@ -46,7 +46,7 @@ function displayModal(index) {
 
     console.log(street);
 
-    street = new Street(location.street);
+    let address = new Address(street.address);
 
     let date = new Date(dob.date);
 
