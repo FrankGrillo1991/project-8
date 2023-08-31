@@ -70,6 +70,10 @@ ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
 
     overlay.classList.remove("hidden");
     modalContainer.innerHTML = modalHTML;
+
+    modalClose.addEventListener('click', () => {
+        overlay.classList.add("hidden");
+    });
 }
 
 gridContainer.addEventListener('click', e => {
@@ -81,7 +85,5 @@ gridContainer.addEventListener('click', e => {
         displayModal(index);
 
     }
-    modalClose.addEventListener('click', () => {
-        overlay.classList.add("hidden");
-    });
 });
+
