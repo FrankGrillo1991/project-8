@@ -1,6 +1,5 @@
 body {
     position: relative;
-    max-width: 1024px;
 }
 
 .page-name {
@@ -9,6 +8,7 @@ body {
 
 .grid-container {
     display: grid;
+    max-width: 1024px;
     grid-template-columns: auto auto auto;
 }
 
