@@ -10,7 +10,6 @@ body {
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto auto;
-    grid-template-rows: repeat(3, 200px);
     grid-gap: 2rem;
 }
 
