@@ -10,7 +10,7 @@ body {
 .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(3);
+    grid-template-columns: auto auto auto;
     grid-gap: 2rem;
 }
 
