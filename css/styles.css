@@ -10,8 +10,7 @@ body {
 .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: repeat(3);
+    grid-template-columns: repeat(auto-fit);
     grid-gap: 2rem;
 }
 
@@ -53,7 +52,7 @@ body {
     text-align: right;
     border: 1px solid gray;
     margin: 30px;
-    padding: 20px;
+    width: 100%;
 }
 
 .avatar {
