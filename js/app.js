@@ -74,7 +74,7 @@ ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
 
 gridContainer.addEventListener('click', e => {
 
-    if (e.target.closest(.card)) {
+    if (e.target.closest('.card')) {
 
         const card = e.target.closest(".card");
         const index = card.getAttribute(["data-index"]);
