@@ -41,6 +41,10 @@ function displayEmployees(employeeData) {
 
 function displayModal(index) {
 
+    modalClose.addEventListener('click', () => {
+        overlay.classList.add("hidden");
+    });
+
 
     let { name, dob, phone, email, location: { city, street, state, postcode}, picture } = employees[index];
 
@@ -71,9 +75,6 @@ ${date.getMonth()}/${date.getDate()}/${date.getFullYear()}</p>
     overlay.classList.remove("hidden");
     modalContainer.innerHTML = modalHTML;
 
-    modalClose.addEventListener('click', () => {
-        overlay.classList.add("hidden");
-    });
 }
 
 gridContainer.addEventListener('click', e => {
